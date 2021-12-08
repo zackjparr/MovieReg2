@@ -1,0 +1,20 @@
+﻿@model Movie
+
+<div>
+    <a asp-action="Create" asp-controller="Home">Create New Movie</a>
+    <p>---or---</p>
+    <a asp-action="List" asp-controller="Home">List All Movies</a>
+    <p>---or---</p>
+    <p>Search by Movie ID:</p>
+    @*<form asp-action="Details" method="post">
+            <input asp-for="Id" class="form-control" value="Id" />
+            <span asp-validation-for="Id" class="text-danger"></span>
+            <input type="submit" />
+        </form>*@
+    <form asp-controller="Home" asp-action="Details">
+        <p>
+            <input type="text" name="Id" />
+            <input type="submit" value="Filter" />
+        </p>
+    </form>
+</div>

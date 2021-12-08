@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "oQ7YVEGF6+4dZfKlFUQXGlK2nh46BGFLDFoA/3jZwSmdCRsu0/ww1USQKqj4GGf5NBCe9U+zgdfEIHUghjgscQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ZParr\\source\\repos\\MovieReg\\MovieReg\\MovieReg.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ZParr\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\ZParr\\.nuget\\packages\\mysqlconnector\\2.1.0\\mysqlconnector.2.1.0.nupkg.sha512",
+    "C:\\Users\\ZParr\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\ZParr\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

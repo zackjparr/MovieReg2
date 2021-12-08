@@ -1,0 +1,12 @@
+﻿@model Movie
+
+<div style="border: solid 2px black">
+    <p>Title: @Model.Title</p>
+    <p>Movie Id: @Model.Id</p>
+    <p>Genre: @Model.Genre</p>
+    <p>Run Time: @Model.RunTime</p>
+    <p>Release Year: @Model.Year</p>
+    <a asp-action="Edit" asp-controller="Home" asp-route-id="@Model.Id"><p>Edit</p></a>
+    <a asp-action="Delete" asp-controller="Home" asp-route-id="@Model.Id"><p>Delete</p></a>
+    <br />
+</div>

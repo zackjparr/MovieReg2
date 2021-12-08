@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Movie>
+
+@foreach (Movie m in Model)
+{
+<div style="border: solid 2px black">
+    <p>Title: @m.Title</p>
+    <p>Movie Id: @m.Id</p>
+    <p>Genre: @m.Genre</p>
+    <p>Run Time: @m.RunTime</p>
+    <p>Release Year: @m.Year</p>
+    <a asp-action="Edit" asp-controller="Home" asp-route-id="@m.Id"><p>Edit</p></a>
+    <a asp-action="Delete" asp-controller="Home" asp-route-id="@m.Id"><p>Delete</p></a>
+    <br />
+</div>
+}
